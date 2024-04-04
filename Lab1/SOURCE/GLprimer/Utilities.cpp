@@ -19,7 +19,7 @@ double displayFPS(GLFWwindow* window) {
     static double fps = 0.0;
 
     static double t0 = glfwGetTime();  // Gets number of seconds since glfwInit()
-
+    
     double t = glfwGetTime();  // Get current time
 
     // update fps only once every second
